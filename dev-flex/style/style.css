@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans';
+  margin: 0;
+}
+
+header {
+  background-color: #1abc9c;
+  padding: 60px;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  display: flex;
+  background-color: #333333;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 14px 20px;
+}
+
+
+nav a:hover{
+  color: black;
+  background-color: gray;
+  flex: 1;
+}
+
+.set-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-side {
+  width: 30%;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.my-photo {
+  padding: 25px;
+  height: 200px;
+  background-color: gray;
+}
+
+.main-side {
+  width: 70%;
+  padding: 20px;
+}
+
+.images {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.side-image {
+  height: 60px;
+}
+
+.main-photo {
+  height: 200px;
+}
+
+footer {
+ padding: 20px;
+ background-color: lightgray;
+ text-align: center;
+ width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .set-flex, nav {   
+    flex-direction: column;
+  }
+  .left-side, .main-side {
+    width: 100%;
+  }
+}
+
+/* 
+
+.container {
+  display: flex;
+}
+
+justify-content = space-evenly
+
+*/
