@@ -1,5 +1,5 @@
 # Web Development
-Some practices and projects of Web Develoment, using HTML5, CSS3, Javascript and Bootstrap 4.
+Some practices and projects of Web Development, using HTML5, CSS3, Javascript and Bootstrap 4.
 
 - HTML5
 - CSS3
